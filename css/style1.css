@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Poppins:wght@300;500;700&display=swap");
 
-
 * {
   margin: 0;
   padding: 0;
@@ -12,33 +11,44 @@ body {
   height: 100%;
 }
 
-
-.navbar{
-    display:flex;
-    justify-content:space-around;
-    align-items:center;
-    flex-direction:row;
-    margin-top: 4%;
-    color:#1E0E62;
-   
+.main{
+position: relative;
 }
 
-.Nav__links{
-    margin-left: 150px;
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 4%;
+  color: #1e0e62;
 }
 
-.Nav__section{
-    display:flex;
-    justify-content:space-evenly;
-    align-items:center;
-    flex-direction:row;
-    /* border:2px solid black; */
-    width:50vw
+.Nav__links {
+  margin-left: 150px;
 }
 
-.heading{
-    color:#1E0E62;
-    text-align: center; 
-    margin-top: 5%;
-    font-size: 30px;
+.Nav__section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  /* border:2px solid black; */
+  width: 50vw;
 }
+
+.heading {
+  color: #1e0e62;
+  text-align: center;
+  margin-top: 5%;
+  font-size: 30px;
+}
+
+.MacBook, .Screen{
+position: absolute;
+}
+
+/* .Screen{
+    position: absolute;
+    top:; 
+} */
