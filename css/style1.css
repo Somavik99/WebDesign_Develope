@@ -11,8 +11,8 @@ body {
   height: 100%;
 }
 
-.main{
-position: relative;
+.main {
+  position: relative;
 }
 
 .navbar {
@@ -44,11 +44,55 @@ position: relative;
   font-size: 30px;
 }
 
-.MacBook, .Screen{
-position: absolute;
+.MacBook__image {
+  position: absolute;
+  left: 28%;
+  width: 45vw;
 }
 
-/* .Screen{
-    position: absolute;
-    top:; 
-} */
+.Screen__image {
+  position: absolute;
+  left: 33.05%;
+  top: 29.5%;
+  width: 35vw;
+}
+
+.Image__cont {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.WebD__Details {
+  margin-top: 32%;
+  margin-bottom: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  color: rgba(0.5, 0.5, 0.5, 0.5);
+  width: 80vw;
+}
+
+.button__div {
+  text-align: center;
+}
+
+.btn {
+  background: #25dac5;
+  color: #ffffff;
+  width:170px;
+  height: 60px;
+  flex-shrink: 0;
+  border: none;
+  outline: none;
+  border-radius: 35px;
+  transition: ease-in-out 0.2s ;
+}
+
+
+.btn:hover{
+    background: #12ecd3;
+}
